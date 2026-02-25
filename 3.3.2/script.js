@@ -19,3 +19,27 @@ let a;
 console.log(a);
 let b = null;
 console.log(b);
+
+let cisloA = 10;
+let cisloB = 20;
+let soucet = cisloA + cisloB;
+console.log(soucet);
+
+console.log(cisloA ** cisloB);
+
+console.log(cisloA % cisloB);
+
+console.log(cisloA + cisloB * cisloB);
+console.log((cisloA + cisloB) * cisloB);
+
+
+let number = 18;
+number = number + 2;
+number += 2;
+number -= 2;
+number *= 2;
+number /= 2;
+number %= 2;
+number ++;
+number --;
+console.log(number);
